@@ -61,7 +61,7 @@ function App() {
       } else {
         clearInterval(interval);
       }
-    }, 35)
+    }, 20)
   }
   const updatePosts = (post, isBot, isLoading) => {
     if (isBot) {
